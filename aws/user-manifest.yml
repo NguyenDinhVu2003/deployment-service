@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: userapp
-          image: nguyendinhvu/user-service:1
+          image: nguyendinhvu/user-service:2
           imagePullPolicy: Always
           ports:
             - containerPort: 9093
