@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: orderapp
-          image: nguyendinhvu/order-service:4
+          image: nguyendinhvu/order-service:5
           imagePullPolicy: Always
           ports:
             - containerPort: 9094
