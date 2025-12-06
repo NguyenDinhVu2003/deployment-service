@@ -8,7 +8,7 @@ data:
   userdb_url: jdbc:mysql://mysql-aws.caxqma0ki34c.us-east-1.rds.amazonaws.com:3306/userdb
 
   # Order service dùng MongoDB Atlas:
-  orderdb_url: mongodb+srv://admin:admin@cluster0.w4buqpk.mongodb.net/
+  orderdb_url: mongodb+srv://admin:admin@cluster0.w4buqpk.mongodb.net/orderdb?retryWrites=true&w=majority&ssl=true
 
   # Eureka address
   eureka_service_address: http://eureka-service:8761/eureka/
