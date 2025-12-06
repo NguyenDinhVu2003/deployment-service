@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: angular-app-container
-          image: nguyendinhvu/angular-server:5
+          image: nguyendinhvu/angular-server:9
           imagePullPolicy: Always
           ports:
             - containerPort: 80
